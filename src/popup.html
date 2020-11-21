@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Launcher</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="container-fluid">
+        <h1 class="logo">
+            <img src="images/logo.png" alt="" class="logo-icon">
+            &nbsp;&nbsp;
+            Notes Launcher
+        </h1>
+    </div>
+    <div class="container-fluid info">
+        <p>
+            Easy access to all your subject notes and pdfs!        
+        </p>
+    </div>
+    <div class="container-fluid main">
+        <ul id="tabs" class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="#ds" role="tab" data-toggle="tab">DS</a></li>
+            <li role="presentation"><a href="#oop" role="tab" data-toggle="tab">OOP</a></li>
+            <li role="presentation"><a href="#dld" role="tab" data-toggle="tab">DLD</a></li>
+            <li role="presentation"><a href="#dm" role="tab" data-toggle="tab">DM</a></li>
+            <li role="presentation"><a href="#evs" role="tab" data-toggle="tab">EVS</a></li>
+          </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in" id="ds"></div>
+            <div role="tabpanel" class="tab-pane fade in" id="oop"></div>
+            <div role="tabpanel" class="tab-pane fade in" id="dld"></div>
+            <div role="tabpanel" class="tab-pane fade in " id="dm"></div>
+            <div role="tabpanel" class="tab-pane fade in " id="evs"></div>
+        </div>
+        <br/>
+    </div>
+    </div>
+
+    <script src="js/jquery.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="module" src="js/data.js"></script>
+    <script type="module" src="js/background.js"></script>
+</body>
+</html>
